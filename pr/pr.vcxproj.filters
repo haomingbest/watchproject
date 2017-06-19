@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="host.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="disk.cpp">
+      <Filter>host\base</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>host\base</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>host\base</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>host\base</Filter>
+    </ClCompile>
+    <ClCompile Include="process_cpu.cpp">
+      <Filter>process\base</Filter>
+    </ClCompile>
+    <ClCompile Include="process_memory.cpp">
+      <Filter>process\base</Filter>
+    </ClCompile>
+    <ClCompile Include="process_io.cpp">
+      <Filter>process\base</Filter>
+    </ClCompile>
+    <ClCompile Include="recordBase.cpp">
+      <Filter>recordBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{534b2ae0-8a7f-4df3-a990-12a756af9eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recordBase">
+      <UniqueIdentifier>{ac455bd5-a3f6-4286-886e-b34f55f5e902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{fbd6fff4-6a6a-4a12-a184-747b310e01d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\base">
+      <UniqueIdentifier>{bbd28efa-47bb-4146-bdd0-576a0715aa18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process\base">
+      <UniqueIdentifier>{a50e6f83-6ff1-4bec-a8cc-17344172f41a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="recordBase.h">
+      <Filter>recordBase</Filter>
+    </ClInclude>
+    <ClInclude Include="host.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="disk.h">
+      <Filter>host\base</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>host\base</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.h">
+      <Filter>host\base</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>host\base</Filter>
+    </ClInclude>
+    <ClInclude Include="process_cpu.h">
+      <Filter>process\base</Filter>
+    </ClInclude>
+    <ClInclude Include="process_memory.h">
+      <Filter>process\base</Filter>
+    </ClInclude>
+    <ClInclude Include="process_io.h">
+      <Filter>process\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
