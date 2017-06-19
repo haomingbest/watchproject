@@ -9,3 +9,5 @@
 *.ipdb
 *.sdf
 *.opensdf
+*.idb
+*.ilk
