@@ -1,0 +1,11 @@
+
+.vs/watch/v14/.suo
+*.obj
+*.tlog
+*.log
+*.pdb
+*.exe
+*.iobj
+*.ipdb
+*.sdf
+*.opensdf
